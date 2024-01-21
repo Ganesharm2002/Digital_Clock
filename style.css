@@ -66,3 +66,25 @@ body{
     font-size: 0.8rem;
 
 }
+@media (max-width:680px ) {
+    .clock{
+        flex-direction: column;
+        background-color: transparent;
+    }
+    .container{
+        gap:5px;
+        background-color: rgb(192, 192, 192);
+        /* flex-direction: column; */
+        color:antiquewhite;
+        height: 60vh;
+        width: 55vw;
+    }
+    .btn{
+        font-size: 2rem;
+         
+
+    }
+    .amPM{
+        font-size: 0.9rem;
+    }
+}
